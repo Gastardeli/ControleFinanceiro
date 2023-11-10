@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Juventus Fans Bold";
+    src: url("https://db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.eot");
+    src: url("https://db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/b4ccc98add6cc60de17dbb589dca2164.svg#Juventus Fans Bold")format("svg");
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+   
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Juventus Fans Bold";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: "Juventus Fans Bold";
+    font-size: 25px;
+
+
+
+}
+
+header div {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header div img {
+    height: 100px;
+}
+
+header div p {}
+
+main {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: white;
+    font-size: 20px;
+}
+
+main .resumo {
+    display: flex;
+
+    justify-content: center;
+}
+
+main .resumo div {
+    padding: 10px;
+}
+
+main .novoItem {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+main .novoItem input,
+button, select {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.divTipo,
+.divValor,
+.divDesc {}
+
+main .divTabela {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .divTabela table thead tr{
+   
+}
